@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="bg-purple-800 text-white p-8">
-      <div className="flex justify-between gap-8">
+      <div className="flex justify-between gap-24 ml-16">
         <div className="w-1/3">
           <h3 className="font-bold text-xl mb-4">Invest Learning LTD</h3>
           <p className="text-sm">
