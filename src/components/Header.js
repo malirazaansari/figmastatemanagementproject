@@ -1,61 +1,9 @@
-// import React from "react";
-
-// function Header() {
-//   return (
-//     <header className="flex justify-between items-center p-4 bg-white shadow-md">
-//       <img
-//         src="logo.png"
-//         alt="Logo"
-//         className="h-10"
-//       />
-//       <nav className="flex gap-6">
-//         <a
-//           href="#home"
-//           className="text-gray-700"
-//         >
-//           Home
-//         </a>
-//         <a
-//           href="#about"
-//           className="text-gray-700"
-//         >
-//           About
-//         </a>
-//         <a
-//           href="#why-ill"
-//           className="text-gray-700"
-//         >
-//           Why ILL
-//         </a>
-//         <a
-//           href="#courses"
-//           className="text-gray-700"
-//         >
-//           Courses
-//         </a>
-//         <a
-//           href="#industries"
-//           className="text-gray-700"
-//         >
-//           Industries
-//         </a>
-//         <button className="bg-purple-600 text-white px-4 py-2 rounded">
-//           Contact us
-//         </button>
-//       </nav>
-//     </header>
-//   );
-// }
-
-// export default Header;
-
 import React from "react";
-import svg from "../assests/react.svg"; // Replace with your logo path
+import svg from "../assests/react.svg";
 
 const Header = () => {
   return (
     <header className="flex items-center justify-between px-8 py-4 shadow-md">
-      {/* Logo */}
       <div className="flex items-center">
         <img
           src={svg}
@@ -64,7 +12,6 @@ const Header = () => {
         />
       </div>
 
-      {/* Navigation Links */}
       <nav className="flex space-x-8 text-gray-700">
         <a
           href="/"
@@ -98,7 +45,6 @@ const Header = () => {
         </a>
       </nav>
 
-      {/* Contact Button */}
       <div>
         <a
           href="/contact"

@@ -36,7 +36,7 @@ const filterSlice = createSlice({
       state[category][filter] = !state[category][filter];
     },
     resetFilters: (state) => {
-      return initialState; // Reset all filters to initial state
+      return initialState;
     },
   },
 });
