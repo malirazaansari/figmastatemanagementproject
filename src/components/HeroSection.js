@@ -4,7 +4,7 @@ import backgroundImage from "../assests/image.png";
 function HeroSection() {
   return (
     <section
-      className="relative h-96 bg-cover bg-center "
+      className="relative h-[600px] bg-cover bg-center "
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}

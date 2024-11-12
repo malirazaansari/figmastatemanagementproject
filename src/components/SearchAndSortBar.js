@@ -13,8 +13,8 @@ const SearchAndSortBar = ({ onSearch, onSort }) => {
   };
 
   return (
-    <div className="flex items-center justify-between p-4">
-      <div className="flex items-center bg-white rounded-full shadow-md w-full max-w-md p-2">
+    <div className="flex items-center justify-between p-4 ml-7 w-auto">
+      <div className="flex items-center bg-white rounded-full shadow-md  w-96 p-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5 text-gray-400 ml-3"

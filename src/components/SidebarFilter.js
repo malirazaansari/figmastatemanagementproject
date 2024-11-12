@@ -11,7 +11,7 @@ function SidebarFilter() {
   };
 
   return (
-    <aside className="w-64 bg-purple-800 text-white p-4 rounded-lg shadow-md">
+    <aside className="w-64 bg-purple-800 text-white mt-7 mb-16 ml-36 p-6 rounded-lg shadow-md">
       <h2 className="text-lg font-bold mb-6 text-center">FILTER COURSES</h2>
 
       <div className="mb-4">
