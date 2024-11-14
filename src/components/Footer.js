@@ -7,13 +7,12 @@ function Footer() {
         <div className="w-1/3">
           <h3 className="font-bold text-xl mb-4">Invest Learning LTD</h3>
           <p className="text-sm">
-            <span className="font-semibold">U.K Office:</span> Suite 3740 Unit
-            34 34-35 Hatton Garden Holborn London EC1N 8DX
+            <span className="font-semibold">P.K Office:</span> Suite 3740 Unit
+            34 34-35 Hatton Garden Holborn Lahore Punjab
           </p>
           <p className="text-sm mt-3">
-            <span className="font-semibold">Nigeria Office:</span> 10 Fadeyi
-            Aladura Street, Off Orishe road, Obafemi Awolowo Way, Ikeja Lagos,
-            Nigeria.
+            <span className="font-semibold">U.k Office:</span> 10 Fadeyi Aladura
+            Street, Off Orishe road, London, EC1N 8DX
           </p>
           <p className="text-sm mt-3">
             <span className="font-semibold">Telephone:</span> +44(0) 7904122514
